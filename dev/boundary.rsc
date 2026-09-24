@@ -1,0 +1,218 @@
+0:{"page:/dev/boundary":"$L1","layout:/":"$L2","route:/dev/boundary":"$L3","__route":"route:/dev/boundary","__interceptionContext":null,"__layoutIds":["layout:/"],"__rootLayout":"/","__bfcacheSegmentIdentities":{"layout:/":"[\"layout\",\"layout:/\",\"root-boundary:/\",\"\"]","page:/dev/boundary":"[\"page\",\"page:/dev/boundary\",\"root-boundary:/\",\"[\\\"dev\\\",\\\"boundary\\\"]\"]"},"__srcPage":["dev","boundary","page"],"__layoutFlags":{"layout:/":"s"},"__artifactCompatibility":{"schemaVersion":1,"graphVersion":"app-route-graph:b1c14b780670846d","deploymentVersion":"ebf60af3-00d9-4117-875c-ed4d682f583e","appElementsSchemaVersion":1,"rscPayloadSchemaVersion":1,"rootBoundaryId":"/","renderEpoch":null}}
+4:I["c241ab181629",[],"default",1]
+5:I["8c0f216c4604",[],"Children",1]
+6:I["593f344dc510",[],"GlobalErrorBoundary",1]
+7:I["0b874ad30386",[],"default",1]
+8:I["593f344dc510",[],"ErrorBoundary",1]
+9:I["15c18cfaeeff",[],"LayoutSegmentProvider",1]
+a:I["8c0f216c4604",[],"Slot",1]
+b:I["593f344dc510",[],"NotFoundBoundary",1]
+c:I["9276801271d6",[],"AppRouterScrollTarget",1]
+d:I["593f344dc510",[],"RedirectBoundary",1]
+:HL["/_next/static/css/index.RS-RHezc.css","style"     ]
+:HL["https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Noto+Sans+JP:wght@400;500;700&display=swap","style"     ]
+2:[[["$","link","css:/_next/static/css/index.RS-RHezc.css",{"rel":"stylesheet","precedence":"vite-rsc/importer-resources","href":"/_next/static/css/index.RS-RHezc.css","data-rsc-css-href":"/_next/static/css/index.RS-RHezc.css"}],"$undefined"],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Noto+Sans+JP:wght@400;500;700&display=swap"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"try{var t=localStorage.getItem('mycmux-site-theme');if(t==='dark'||t==='light')document.documentElement.dataset.theme=t}catch(e){}"}}]]}],["$","body",null,{"children":[["$","a",null,{"className":"skip-link","href":"#main","children":"本文へ移動"}],["$","$L4",null,{}],["$","$L5",null,{}],["$","footer",null,{"className":"site-footer","children":["$","div",null,{"className":"footer-inner","children":[["$","div",null,{"children":[["$","a",null,{"href":"/","className":"brand","children":"mycmux"}],["$","p",null,{"children":"v0.78.1"}]]}],["$","div",null,{"className":"footer-links","children":[["$","a",null,{"href":"https://github.com/miyafcos/mycmux-team/blob/master/LICENSE","children":"GPL-3.0"}],["$","a",null,{"href":"https://github.com/cai0baa/cmux-for-linux","children":"fork 元：cmux-for-linux（ptrcode）"}],["$","a",null,{"href":"/updates","children":"最近の変更"}],["$","a",null,{"href":"/dev","children":"開発者向け"}],["$","a",null,{"href":"https://github.com/miyafcos/mycmux-team","children":"ソースと配布"}]]}]]}]}]]}]]}]]
+3:[[["$","meta",null,{"charSet":"utf-8"}],[["$","title","0",{"children":"アプリとハーネスの境界 — mycmux"}],["$","meta","1",{"name":"description","content":"mycmux のアプリとハーネスをつなぐ 4 本の橋（socket、hook、環境変数、スキルパック）と、どちらが何を知っているかをまとめます。"}],["$","meta","2",{"property":"og:title","content":"アプリとハーネスの境界 — mycmux"}],["$","meta","3",{"property":"og:description","content":"mycmux のアプリとハーネスをつなぐ 4 本の橋（socket、hook、環境変数、スキルパック）と、どちらが何を知っているかをまとめます。"}],["$","meta","4",{"property":"og:site_name","content":"mycmux"}],["$","meta","5",{"property":"og:type","content":"website"}],["$","meta","6",{"property":"og:locale","content":"ja_JP"}],["$","meta","7",{"name":"twitter:card","content":"summary"}],["$","meta","8",{"name":"twitter:title","content":"アプリとハーネスの境界 — mycmux"}],["$","meta","9",{"name":"twitter:description","content":"mycmux のアプリとハーネスをつなぐ 4 本の橋（socket、hook、環境変数、スキルパック）と、どちらが何を知っているかをまとめます。"}],["$","link","10",{"data-vinext-streamed-icon":"$undefined","rel":"icon","href":"/favicon.png","type":"$undefined","sizes":"$undefined","color":"$undefined","media":"$undefined","fetchPriority":"$undefined"}],["$","link","11",{"data-vinext-streamed-icon":"$undefined","rel":"apple-touch-icon","href":"/apple-touch-icon.png","type":"$undefined","sizes":"$undefined","color":"$undefined","media":"$undefined","fetchPriority":"$undefined"}]],[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"name":"theme-color","content":"#FFFFFF","media":"(prefers-color-scheme: light)"}],["$","meta","2",{"name":"theme-color","content":"#0B0D10","media":"(prefers-color-scheme: dark)"}]]],["$","$L6",null,{"fallback":"$7","children":["$","$L8",null,{"fallback":"$7","children":["$","$L9",null,{"providerId":"layout:/","segmentMap":{"children":["dev","boundary"]},"children":["$","$La",null,{"id":"layout:/","parallelSlots":"$undefined","children":["$","$Lb",null,{"resetKey":"dev","fallback":["$","main",null,{"className":"site-main page-404","id":"main","children":["$","div",null,{"className":"page-heading","children":[["$","p",null,{"className":"eyebrow","children":"404"}],["$","h1",null,{"children":"ページが見つかりません"}],["$","p",null,{"children":"リンク先が変わった可能性があります。次のページから探し直せます。"}],["$","p",null,{"className":"link-row","children":[["$","a",null,{"href":"/","children":"トップ"}],["$","a",null,{"href":"/start","children":"はじめる"}],["$","a",null,{"href":"/guide","children":"使い方"}],["$","a",null,{"href":"/recipes","children":"活用方法"}],["$","a",null,{"href":"/why","children":"考え方"}]]}]]}]}],"children":["$","$Lb",null,{"resetKey":"[\"dev\",\"boundary\"]","fallback":["$","main",null,{"className":"site-main page-404","id":"main","children":["$","div",null,{"className":"page-heading","children":[["$","p",null,{"className":"eyebrow","children":"404"}],["$","h1",null,{"children":"ページが見つかりません"}],["$","p",null,{"children":"リンク先が変わった可能性があります。次のページから探し直せます。"}],["$","p",null,{"className":"link-row","children":[["$","a",null,{"href":"/","children":"トップ"}],["$","a",null,{"href":"/start","children":"はじめる"}],["$","a",null,{"href":"/guide","children":"使い方"}],["$","a",null,{"href":"/recipes","children":"活用方法"}],["$","a",null,{"href":"/why","children":"考え方"}]]}]]}]}],"children":["$","$Lc",null,{"children":["$","$Ld",null,{"children":[["$","$L9",null,{"providerId":"page:/dev/boundary","segmentMap":{"children":["__PAGE__"]},"children":["$","$La",null,{"id":"page:/dev/boundary"}]}],null]}]}]}]}]}]}]}]}],null,null]
+e:I["64e14956b0bb",[],"default",1]
+1:["$","main",null,{"className":"site-main page-dev-boundary","id":"main","children":[["$","header",null,{"className":"page-heading","children":[["$","p",null,{"className":"eyebrow","children":"mycmux 開発者向け"}],["$","h1",null,{"children":"アプリとハーネスの境界"}],"$undefined",["$","nav",null,{"className":"dev-nav","aria-label":"開発者向けページの中の移動","children":[["$","a",null,{"className":"dev-nav-root","href":"/dev","aria-current":"$undefined","children":"開発者向け"}],["$","ul",null,{"children":[["$","li","/dev/boundary",{"children":["$","a",null,{"href":"/dev/boundary","aria-current":"page","children":"境界"}]}],["$","li","/dev/editor",{"children":["$","a",null,{"href":"/dev/editor","aria-current":"$undefined","children":"エディタ本体"}]}],["$","li","/dev/observation",{"children":["$","a",null,{"href":"/dev/observation","aria-current":"$undefined","children":"観測とカード"}]}],["$","li","/dev/dispatch",{"children":["$","a",null,{"href":"/dev/dispatch","aria-current":"$undefined","children":"ディスパッチ"}]}],["$","li","/dev/resume",{"children":["$","a",null,{"href":"/dev/resume","aria-current":"$undefined","children":"resume"}]}],["$","li","/dev/house",{"children":["$","a",null,{"href":"/dev/house","aria-current":"$undefined","children":"エージェントの家"}]}],["$","li","/dev/subsystems",{"children":["$","a",null,{"href":"/dev/subsystems","aria-current":"$undefined","children":"周辺の仕組み"}]}],["$","li","/dev/runtime",{"children":["$","a",null,{"href":"/dev/runtime","aria-current":"$undefined","children":"いま動いているもの"}]}],["$","li","/dev/plans",{"children":["$","a",null,{"href":"/dev/plans","aria-current":"$undefined","children":"設計文書と実装"}]}],["$","li","/dev/responsibility",{"children":["$","a",null,{"href":"/dev/responsibility","aria-current":"$undefined","children":"責務の分け方"}]}],["$","li","/dev/glossary",{"children":["$","a",null,{"href":"/dev/glossary","aria-current":"$undefined","children":"用語"}]}]]}]]}],["$","div",null,{"className":"intro","children":[["$","div","0",{"dangerouslySetInnerHTML":{"__html":"<div class=\"callout accent\"><p>mycmux とハーネスは、4 本の「橋」でつながっています。ハーネスとは、Claude Code、Codex、Grok の設定と、<code>~/.claude</code> にある skill、hook、スクリプトのことです。</p><ol><li>socket（アプリが localhost で受け付ける命令の口）と、それを包む CLI と bridge</li><li>hook（エージェントが自分の状態を知らせる仕組み。アプリがハーネスの設定ファイルに書き込んで入れる）</li><li>PTY に渡す環境変数</li><li>同梱スキルパック（アプリがハーネスのコードを配る）</li></ol><p>4 本とも動いていますが、向きが両方にあります。アプリはハーネスの設定、認証、信頼の各ファイルを書き、ハーネスはリポジトリ作業ツリーの CLI を直接呼びます。版のずれや片側だけの変更が、もう片側を黙って壊す箇所が 20 か所ありました。</p></div>\n<p>このページは、アプリとハーネスがどこで接していて、どちらが何を知っているかをまとめたものです。mycmux は最初はターミナルを並べるエディタでしたが、8 月以降、委譲便、判断カード、hook、アカウント切替などを取り込みました。その結果、アプリとハーネスの両方にまたがる仕組みが増えました。</p><p>このページの目的は、作者の見立てを確かめることです。見立ては「ハーネスで管理すべきことと、アプリとして管理すべきことの両方を抱えている」です。どの橋を何が渡っているかという形で確かめます。どちらに寄せるべきかの提案は、<a href=\"/dev/responsibility\">責務の分け方</a>に書きます。</p>"}}]]}]]}],["$","div",null,{"className":"reading-layout","children":[["$","$Le",null,{"sections":[{"id":"sides","title":"3 つの側と 4 本の橋"},{"id":"socket","title":"橋 1: socket（命令の口）"},{"id":"cli","title":"CLI mycmux_agent_cli.py"},{"id":"hook","title":"橋 2: hook と使い捨ての合言葉"},{"id":"env","title":"橋 3: PTY に渡す環境変数"},{"id":"skillpack","title":"橋 4: 同梱スキルパック"},{"id":"harness-hooks","title":"ハーネス側の hook の一覧"},{"id":"bridge","title":"bridge の安全な送信"},{"id":"dot-mycmux","title":"~/.mycmux の持ち物"},{"id":"asymmetry","title":"知っていることの非対称"},{"id":"mismatches","title":"境界の食い違い（20 件）"},{"id":"unverified","title":"未確認事項"}]}],["$","div",null,{"className":"reading-article","children":[["$","details",null,{"className":"mobile-contents","children":[["$","summary",null,{"children":"このページの目次"}],["$","nav",null,{"aria-label":"このページの目次","children":["$","ul",null,{"children":[["$","li","sides",{"children":["$","a",null,{"href":"#sides","children":"3 つの側と 4 本の橋"}]}],["$","li","socket",{"children":["$","a",null,{"href":"#socket","children":"橋 1: socket（命令の口）"}]}],["$","li","cli",{"children":["$","a",null,{"href":"#cli","children":"CLI mycmux_agent_cli.py"}]}],["$","li","hook",{"children":["$","a",null,{"href":"#hook","children":"橋 2: hook と使い捨ての合言葉"}]}],["$","li","env",{"children":["$","a",null,{"href":"#env","children":"橋 3: PTY に渡す環境変数"}]}],["$","li","skillpack",{"children":["$","a",null,{"href":"#skillpack","children":"橋 4: 同梱スキルパック"}]}],["$","li","harness-hooks",{"children":["$","a",null,{"href":"#harness-hooks","children":"ハーネス側の hook の一覧"}]}],["$","li","bridge",{"children":["$","a",null,{"href":"#bridge","children":"bridge の安全な送信"}]}],["$","li","dot-mycmux",{"children":["$","a",null,{"href":"#dot-mycmux","children":"~/.mycmux の持ち物"}]}],["$","li","asymmetry",{"children":["$","a",null,{"href":"#asymmetry","children":"知っていることの非対称"}]}],["$","li","mismatches",{"children":"$Lf"}],"$L10"]}]}]]}],"$L11","$L12","$L13"]}]]}]]}]
+f:["$","a",null,{"href":"#mismatches","children":"境界の食い違い（20 件）"}]
+10:["$","li","unverified",{"children":["$","a",null,{"href":"#unverified","children":"未確認事項"}]}]
+11:["$","article",null,{"children":[["$","section","sides",{"id":"sides","children":[["$","h2",null,{"children":"3 つの側と 4 本の橋"}],[["$","figure","0",{"className":"fig","data-fig":"F12","children":[["$","svg",null,{"className":"fig-wide","viewBox":"0 0 720 450","width":"100%","role":"img","aria-label":"4 本の橋のうち、socket はハーネスからアプリへ、hook の導入とスキルパックはアプリからハーネスへ向かう。環境変数は PTY を通って両側が読む。","data-vw":720,"data-fs":15,"xmlns":"http://www.w3.org/2000/svg","children":[["$","title",null,{"children":"4 本の橋のうち、socket はハーネスからアプリへ、hook の導入とスキルパックはアプリからハーネスへ向かう。環境変数は PTY を通って両側が読む。"}],["$","defs",null,{"children":[["$","marker",null,{"id":"F12-wide-arrow","viewBox":"0 0 10 10","refX":"9","refY":"5","markerWidth":"8","markerHeight":"8","orient":"auto-start-reverse","children":["$","path",null,{"d":"M0 0L10 5L0 10z","className":"arrowhead"}]}],["$","marker",null,{"id":"F12-wide-arrow-accent","viewBox":"0 0 10 10","refX":"9","refY":"5","markerWidth":"8","markerHeight":"8","orient":"auto-start-reverse","children":["$","path",null,{"d":"M0 0L10 5L0 10z","className":"arrowhead accent"}]}]]}],[["$","g","0",{"children":[["$","path",null,{"d":"M160 24L560 24","className":"edge  accent","markerEnd":"url(#F12-wide-arrow-accent)","markerStart":"$undefined"}],["$","g",null,{"className":"edge-label-group","children":[["$","rect",null,{"x":261.90000000000003,"y":12.75,"width":196.19999999999993,"height":22.5,"rx":4,"className":"edge-label-bg"}],["$","text",null,{"x":360,"y":29.25,"textAnchor":"middle","fontSize":15,"className":"edge-label","children":"① socket・CLI・bridge"}]]}]]}],["$","g","1",{"children":[["$","path",null,{"d":"M560 128L160 128","className":"edge","markerEnd":"url(#F12-wide-arrow)","markerStart":"$undefined"}],["$","g",null,{"className":"edge-label-group","children":[["$","rect",null,{"x":324.75,"y":116.75,"width":70.5,"height":22.5,"rx":4,"className":"edge-label-bg"}],["$","text",null,{"x":360,"y":133.25,"textAnchor":"middle","fontSize":15,"className":"edge-label","children":"② hook"}]]}]]}],["$","g","2",{"children":[["$","path",null,{"d":"M160 254L560 254","className":"edge","markerEnd":"url(#F12-wide-arrow)","markerStart":"url(#F12-wide-arrow)"}],["$","g",null,{"className":"edge-label-group","children":[["$","rect",null,{"x":312.15,"y":242.75,"width":95.7,"height":22.5,"rx":4,"className":"edge-label-bg"}],["$","text",null,{"x":360,"y":259.25,"textAnchor":"middle","fontSize":15,"className":"edge-label","children":"③ 環境変数"}]]}]]}],["$","g","3",{"children":[["$","path",null,{"d":"M560 358L160 358","className":"edge","markerEnd":"url(#F12-wide-arrow)","markerStart":"$undefined"}],["$","g",null,{"className":"edge-label-group","children":[["$","rect",null,{"x":297.15,"y":346.75,"width":125.7,"height":22.5,"rx":4,"className":"edge-label-bg"}],["$","text",null,{"x":360,"y":363.25,"textAnchor":"middle","fontSize":15,"className":"edge-label","children":"④ スキルパック"}]]}]]}]],[["$","g","h",{"className":"node n-group","data-w":160,"data-id":"h","children":[["$","rect",null,{"x":0,"y":0,"width":160,"height":450,"rx":8}],["$","text",null,{"x":12,"textAnchor":"start","fontSize":15,"children":[["$","tspan","0",{"x":12,"y":24.75,"className":"title","children":"ハーネス"}],["$","tspan","1",{"x":12,"y":47.75,"className":"sub","children":"親・skill・hook"}]]}]]}],["$","g","a",{"className":"node n-group","data-w":160,"data-id":"a","children":[["$","rect",null,{"x":560,"y":0,"width":160,"height":450,"rx":8}],["$","text",null,{"x":572,"textAnchor":"start","fontSize":15,"children":[["$","tspan","0",{"x":572,"y":24.75,"className":"title","children":"アプリ"}],["$","tspan","1",{"x":572,"y":47.75,"className":"sub","children":"mycmux"}]]}]]}],["$","g","d1",{"className":"node n-box","data-w":360,"data-id":"d1","children":[["$","rect",null,{"x":180,"y":44,"width":360,"height":60,"rx":8}],["$","text",null,{"x":360,"textAnchor":"middle","fontSize":15,"children":[["$","tspan","0",{"x":360,"y":67.75,"className":"title","children":"ハーネス → アプリ"}],["$","tspan","1",{"x":360,"y":90.75,"className":"sub","children":"委譲・送信・状態の読み取り"}]]}]]}],["$","g","d2",{"className":"node n-box","data-w":360,"data-id":"d2","children":[["$","rect",null,{"x":180,"y":148,"width":360,"height":82,"rx":8}],["$","text",null,{"x":360,"textAnchor":"middle","fontSize":15,"children":[["$","tspan","0",{"x":360,"y":171.25,"className":"title","children":"アプリ → ハーネスの設定"}],["$","tspan","1",{"x":360,"y":194.25,"className":"sub","children":"エージェント → アプリ"}],["$","tspan","2",{"x":360,"y":217.25,"className":"sub","children":"settings.json に登録し、申告を受ける"}]]}]]}],["$","g","d3",{"className":"node n-box","data-w":360,"data-id":"d3","children":[["$","rect",null,{"x":180,"y":274,"width":360,"height":60,"rx":8}],["$","text",null,{"x":360,"textAnchor":"middle","fontSize":15,"children":[["$","tspan","0",{"x":360,"y":297.75,"className":"title","children":"アプリ → PTY → 両側"}],["$","tspan","1",{"x":360,"y":320.75,"className":"sub","children":"自分のペインの ID など"}]]}]]}],["$","g","d4",{"className":"node n-box","data-w":360,"data-id":"d4","children":[["$","rect",null,{"x":180,"y":378,"width":360,"height":60,"rx":8}],["$","text",null,{"x":360,"textAnchor":"middle","fontSize":15,"children":[["$","tspan","0",{"x":360,"y":401.75,"className":"title","children":"アプリ → ハーネス"}],["$","tspan","1",{"x":360,"y":424.75,"className":"sub","children":"skill と CLI を配る"}]]}]]}]],"$undefined"]}],"$undefined",["$","svg",null,{"className":"fig-narrow","viewBox":"0 0 350 642","width":"100%","role":"img","aria-label":"4 本の橋のうち、socket はハーネスからアプリへ、hook の導入とスキルパックはアプリからハーネスへ向かう。環境変数は PTY を通って両側が読む。","data-vw":350,"data-fs":15,"xmlns":"http://www.w3.org/2000/svg","children":["$L14","$L15",["$L16","$L17","$L18","$L19"],["$L1a","$L1b","$L1c","$L1d","$L1e","$L1f"],"$undefined"]}],"$L20"]}],"$L21"]]}],"$L22","$L23","$L24","$L25","$L26","$L27","$L28","$L29","$L2a","$L2b","$L2c"]}]
+12:["$","nav",null,{"className":"next-page","aria-label":"次に読む","children":[["$","span",null,{"className":"next-label","children":"次に読む"}],["$","a",null,{"href":"/dev/editor","children":"エディタ本体"}],"$undefined"]}]
+13:["$","p",null,{"className":"back-to-top","children":["$","a",null,{"href":"#main","children":"ページの先頭へ戻る"}]}]
+14:["$","title",null,{"children":"4 本の橋のうち、socket はハーネスからアプリへ、hook の導入とスキルパックはアプリからハーネスへ向かう。環境変数は PTY を通って両側が読む。"}]
+15:["$","defs",null,{"children":[["$","marker",null,{"id":"F12-narrow-arrow","viewBox":"0 0 10 10","refX":"9","refY":"5","markerWidth":"8","markerHeight":"8","orient":"auto-start-reverse","children":["$","path",null,{"d":"M0 0L10 5L0 10z","className":"arrowhead"}]}],["$","marker",null,{"id":"F12-narrow-arrow-accent","viewBox":"0 0 10 10","refX":"9","refY":"5","markerWidth":"8","markerHeight":"8","orient":"auto-start-reverse","children":["$","path",null,{"d":"M0 0L10 5L0 10z","className":"arrowhead accent"}]}]]}]
+16:["$","g","0",{"children":[["$","path",null,{"d":"M43.75 56L43.75 176","className":"edge  accent","markerEnd":"url(#F12-narrow-arrow-accent)","markerStart":"$undefined"}],["$","g",null,{"className":"edge-label-group","children":[["$","rect",null,{"x":30.25,"y":104.75,"width":27,"height":22.5,"rx":4,"className":"edge-label-bg"}],["$","text",null,{"x":43.75,"y":121.25,"textAnchor":"middle","fontSize":15,"className":"edge-label","children":"①"}]]}]]}]
+17:["$","g","1",{"children":[["$","path",null,{"d":"M131.25 176L131.25 56","className":"edge","markerEnd":"url(#F12-narrow-arrow)","markerStart":"$undefined"}],["$","g",null,{"className":"edge-label-group","children":[["$","rect",null,{"x":117.75,"y":104.75,"width":27,"height":22.5,"rx":4,"className":"edge-label-bg"}],["$","text",null,{"x":131.25,"y":121.25,"textAnchor":"middle","fontSize":15,"className":"edge-label","children":"②"}]]}]]}]
+18:["$","g","2",{"children":[["$","path",null,{"d":"M218.75 56L218.75 176","className":"edge","markerEnd":"url(#F12-narrow-arrow)","markerStart":"url(#F12-narrow-arrow)"}],["$","g",null,{"className":"edge-label-group","children":[["$","rect",null,{"x":205.25,"y":104.75,"width":27,"height":22.5,"rx":4,"className":"edge-label-bg"}],["$","text",null,{"x":218.75,"y":121.25,"textAnchor":"middle","fontSize":15,"className":"edge-label","children":"③"}]]}]]}]
+19:["$","g","3",{"children":[["$","path",null,{"d":"M306.25 176L306.25 56","className":"edge","markerEnd":"url(#F12-narrow-arrow)","markerStart":"$undefined"}],["$","g",null,{"className":"edge-label-group","children":[["$","rect",null,{"x":292.75,"y":104.75,"width":27,"height":22.5,"rx":4,"className":"edge-label-bg"}],["$","text",null,{"x":306.25,"y":121.25,"textAnchor":"middle","fontSize":15,"className":"edge-label","children":"④"}]]}]]}]
+1a:["$","g","h",{"className":"node n-box","data-w":350,"data-id":"h","children":[["$","rect",null,{"x":0,"y":0,"width":350,"height":56,"rx":8}],["$","text",null,{"x":175,"textAnchor":"middle","fontSize":15,"children":[["$","tspan","0",{"x":175,"y":21.75,"className":"title","children":"ハーネス"}],["$","tspan","1",{"x":175,"y":44.75,"className":"sub","children":"親・skill・hook"}]]}]]}]
+1b:["$","g","a",{"className":"node n-box","data-w":350,"data-id":"a","children":[["$","rect",null,{"x":0,"y":176,"width":350,"height":56,"rx":8}],["$","text",null,{"x":175,"textAnchor":"middle","fontSize":15,"children":[["$","tspan","0",{"x":175,"y":197.75,"className":"title","children":"アプリ"}],["$","tspan","1",{"x":175,"y":220.75,"className":"sub","children":"mycmux"}]]}]]}]
+1c:["$","g","n1",{"className":"node n-box","data-w":350,"data-id":"n1","children":[["$","rect",null,{"x":0,"y":256,"width":350,"height":82,"rx":8}],["$","text",null,{"x":175,"textAnchor":"middle","fontSize":15,"children":[["$","tspan","0",{"x":175,"y":279.25,"className":"title","children":"① socket・CLI・bridge"}],["$","tspan","1",{"x":175,"y":302.25,"className":"sub","children":"ハーネス → アプリ"}],["$","tspan","2",{"x":175,"y":325.25,"className":"sub","children":"委譲・送信・状態の読み取り"}]]}]]}]
+1d:["$","g","n2",{"className":"node n-box","data-w":350,"data-id":"n2","children":[["$","rect",null,{"x":0,"y":350,"width":350,"height":104,"rx":8}],["$","text",null,{"x":175,"textAnchor":"middle","fontSize":15,"children":[["$","tspan","0",{"x":175,"y":372.75,"className":"title","children":"② hook"}],["$","tspan","1",{"x":175,"y":395.75,"className":"sub","children":"アプリ → ハーネスの設定"}],["$","tspan","2",{"x":175,"y":418.75,"className":"sub","children":"エージェント → アプリ"}],["$","tspan","3",{"x":175,"y":441.75,"className":"sub","children":"settings.json に登録し、申告を受ける"}]]}]]}]
+1e:["$","g","n3",{"className":"node n-box","data-w":350,"data-id":"n3","children":[["$","rect",null,{"x":0,"y":466,"width":350,"height":82,"rx":8}],["$","text",null,{"x":175,"textAnchor":"middle","fontSize":15,"children":[["$","tspan","0",{"x":175,"y":489.25,"className":"title","children":"③ 環境変数"}],["$","tspan","1",{"x":175,"y":512.25,"className":"sub","children":"アプリ → PTY → 両側"}],["$","tspan","2",{"x":175,"y":535.25,"className":"sub","children":"自分のペインの ID など"}]]}]]}]
+1f:["$","g","n4",{"className":"node n-box","data-w":350,"data-id":"n4","children":[["$","rect",null,{"x":0,"y":560,"width":350,"height":82,"rx":8}],["$","text",null,{"x":175,"textAnchor":"middle","fontSize":15,"children":[["$","tspan","0",{"x":175,"y":583.25,"className":"title","children":"④ スキルパック"}],["$","tspan","1",{"x":175,"y":606.25,"className":"sub","children":"アプリ → ハーネス"}],["$","tspan","2",{"x":175,"y":629.25,"className":"sub","children":"skill と CLI を配る"}]]}]]}]
+20:["$","figcaption",null,{"children":[["$","span",null,{"className":"fig-no","children":"図 1"}],"socket はハーネスからアプリへ、hook の導入とスキルパックはアプリからハーネスへ向かいます。環境変数は PTY を通って両側が読みます。"]}]
+21:["$","div","1",{"dangerouslySetInnerHTML":{"__html":"<p>図の読み方です。矢印は書き込みや命令の向きです。② hook の矢印は、アプリがハーネスの設定ファイルに hook を登録する向きです。登録された hook からの申告（エージェントからアプリへ）は、① と同じ socket を通って届きます。</p>\n<table>\n<thead>\n<tr><th>側</th><th>中身</th><th>主な置き場</th></tr></thead>\n<tbody>\n<tr><td>アプリ</td><td>Rust（Tauri）とフロント（React）。ワークスペース・タブ・ペイン、PTY、保存、観測、表示</td><td><code>~\\cmux-for-linux-dev-master</code>、<code>%APPDATA%</code> の下のアプリのフォルダ、<code>~/.mycmux/</code></td>\n</tr>\n<tr><td>ハーネス</td><td>Claude Code・Codex・Grok の設定と、作者の skill・hook・スクリプト・台帳・規則</td><td><code>~/.claude/</code>、<code>~/.codex/</code>、<code>~/.grok/</code>、<code>%USERPROFILE%\\claude-ops\\</code></td>\n</tr>\n<tr><td>橋</td><td>両方にまたがる部品。socket と CLI・bridge、hook の helper、環境変数の約束、スキルパック</td><td><code>scripts/mycmux_agent_cli.py</code>、<code>~/.mycmux/hooks/v1/mycmux_hook.py</code>、<code>skills/claude/</code></td>\n</tr>\n</tbody>\n</table>"}}]
+2d:Tec3,<p>socket は <code>127.0.0.1</code> の TCP 1 本で、1 行に 1 つの JSON で命令を送ります。ポート番号は <code>~/.mycmux/mycmux.port</code>、合言葉（token）は <code>~/.mycmux/mycmux.token</code> にあり、どちらもアプリの起動ごとに作り直されます。loopback 以外からの接続は捨てます（<code>src-tauri/src/socket.rs:1036-1089</code>）。</p><p>合言葉は 2 種類あり、受け付ける範囲（realm）を分けています。</p>
+<table>
+<thead>
+<tr><th>範囲</th><th>合言葉</th><th>使える命令</th><th>使う者</th></tr></thead>
+<tbody>
+<tr><td>一般（broad realm）</td><td>起動ごとの token</td> <td>hook 以外のすべて</td><td>CLI・bridge・pocket・2 個目の mycmux</td>
+</tr>
+<tr>
+<td>hook（hook realm）</td><td>エージェント起動ごとの使い捨て合言葉 <code>hook_cap</code></td> <td><code>hook.health</code>・<code>hook.observe</code> だけ</td><td>hook の helper</td>
+</tr>
+</tbody>
+</table><p>両方の合言葉を持つ要求は拒否し、一般の範囲から <code>hook.*</code> は呼べません（<code>src-tauri/src/socket.rs:180-208</code>）。</p><p>命令は、Rust が直接答えるものが 8 系統、フロントへ転送して答えるものが 47 名（正式名 39、旧名 8）です。</p>
+<table>
+<thead>
+<tr><th>系統</th><th>主な命令</th><th>答える側</th><th>主な呼び手</th></tr></thead>
+<tbody>
+<tr>
+<td>hook</td> <td><code>hook.health</code>・<code>hook.observe</code></td> <td>Rust</td> <td>hook の helper</td>
+</tr>
+<tr><td>状態</td><td><code>session.state_view</code>（ペインの状態の一覧）・<code>status.subscribe</code>（変化の購読）</td><td>Rust</td> <td>CLI の status・bridge・pocket</td>
+</tr>
+<tr><td>合言葉の発行</td><td><code>launch.issue_hook_cap</code></td> <td>Rust</td><td>ランチャーのシェル関数</td></tr>
+<tr><td>開く</td><td><code>app.open_paths</code>・<code>app.activate</code>（リポジトリの最新の版で追加）</td><td>Rust</td> <td>2 個目に起動した mycmux</td>
+</tr>
+<tr><td>ワークスペース</td><td><code>workspace.list</code>・<code>workspace.new</code>・<code>workspace.close</code></td><td>フロント</td><td>CLI</td>
+</tr>
+<tr><td>ペイン</td><td><code>pane.list_all</code>・<code>pane.spawn_tab</code>・<code>pane.send_text</code>・<code>pane.read</code>・<code>pane.close_tab</code> ほか</td><td>フロント</td><td>CLI・bridge・pocket・ハーネスの委譲</td></tr>
+<tr>
+<td>Web ペイン</td><td><code>web.open</code>・<code>web.read</code>・<code>web.push</code> ほか 19</td><td>フロント</td><td>oracmux</td>
+</tr>
+<tr><td>使用量</td><td><code>account.usage</code></td><td>フロント</td><td>CLI・ハーネスの birdseye</td>
+</tr>
+</tbody>
+</table><p>フロントで答える命令は、主窓（リーダー窓）だけが実行し、30 秒で応答しなければ打ち切ります。同じ処理関数 <code>handleSocketCommand</code> を、アプリの画面自身も内部の API として 6 か所で呼んでいます。入力欄、返信欄、ペイン整理、WorkOrder などです。外向きの約束を変えると、画面の挙動も一緒に変わります。</p><div class="callout warn"><p>socket には、稼働中の exe の版や、使える命令の一覧を問い合わせる命令がありません。ハーネスはリポジトリ作業ツリーの CLI（HEAD、調査時点の最新の版）を使い、稼働していた exe は 1 つ前の版でした。そのため、新しい命令は要求が失敗して初めて分かります。たとえば <code>spawn --target omp</code> は、稼働していた版では通らないはずです（推測）。</p></div>22:["$","section","socket",{"id":"socket","children":[["$","h2",null,{"children":"橋 1: socket（命令の口）"}],[["$","div","0",{"dangerouslySetInnerHTML":{"__html":"$2d"}}]]]}]
+2e:Ta0d,<p><code>scripts/mycmux_agent_cli.py</code> は、socket の命令を 1 つずつ送る薄いクライアントです。ハーネスの委譲は、ここを通って子のペインを立てます。</p>
+<table>
+<thead>
+<tr><th>サブコマンド</th><th>送る命令</th><th>既定と約束</th></tr></thead>
+<tbody>
+<tr>
+<td><code>spawn --target &lt;種類&gt;</code></td> <td><code>pane.spawn_tab</code></td><td>呼び出し元と同じタブにペインを足し、裏で起動する。<code>--split</code> を付けたときだけ新しいタブを割る。<code>--workspace</code> などを <code>--split</code> なしで付けるとエラー</td></tr>
+<tr>
+<td><code>spawn-tab</code></td> <td><code>pane.spawn_tab</code></td><td>起動する種類（<code>--target</code>）かコマンド（<code>--</code> 以降）のどちらか一方</td></tr>
+<tr>
+<td><code>send --session</code></td> <td><code>pane.send_text</code></td> <td><code>--text</code> だけは未確認の書き込み。<code>--enter</code> は Enter を最大 3 回押し直す。<code>--key enter</code> は 1 回</td></tr>
+<tr>
+<td><code>read</code>、<code>close-tab</code>、<code>rename</code>、<code>move</code></td> <td><code>pane.read</code> ほか</td><td>宛先はペインの PTY セッション ID</td>
+</tr>
+<tr>
+<td><code>status</code></td> <td><code>session.state_view</code></td><td>応答を厳しく検査する</td></tr>
+<tr>
+<td><code>workspace-new</code>、<code>workspace-close</code></td> <td><code>workspace.new</code>、<code>workspace.close</code></td><td>前面のワークスペースは閉じられない</td></tr>
+<tr>
+<td><code>web-*</code></td> <td><code>web.*</code></td> <td>Web ペインの操作</td></tr></tbody></table><p><code>--target</code> で選べるのは 9 つです。claude、codex、claude-codex、grok、agy、hermes、omp、shell、web があります。</p><div class="callout warn"><p>CLI の <code>status</code>（全件）は、いま必ず失敗します。閉じたペイン 88〜90 件の入力改訂番号が null で、CLI は非負の整数を要求するためです（<code>scripts/mycmux_agent_cli.py:885</code> と <code>src-tauri/src/socket.rs:789-791</code>）。bridge は null を許しているので落ちません。</p><p>pocket には、CLI と同じ厳しい検査が移植されています。また <code>--model</code> と <code>--effort</code> は、prompt、handoff、resume と一緒に渡すと、エラーも警告も出さずに捨てられます（<code>scripts/mycmux_agent_cli.py:471-475</code>）。</p></div>23:["$","section","cli",{"id":"cli","children":[["$","h2",null,{"children":"CLI mycmux_agent_cli.py"}],[["$","div","0",{"dangerouslySetInnerHTML":{"__html":"$2e"}}]]]}]
+2f:Te7c,<p>hook は、エージェントが「質問を出した」「ターンを終えた」などを自分で知らせる仕組みです（意味づけは<a href="/dev/observation">観測とカード</a>）。アプリは起動のたびに次のファイルを書き換えます。</p>
+<table>
+<thead>
+<tr><th>書く先</th><th>中身</th></tr></thead>
+<tbody>
+<tr>
+<td><code>~/.mycmux/hooks/v1/mycmux_hook.py</code></td> <td>helper 本体（exe に埋め込んだものを書き出す）</td></tr>
+<tr>
+<td><code>~/.claude/settings.json</code></td> <td>Claude の 7 イベント（<code>UserPromptSubmit</code>・<code>PermissionRequest</code>・<code>Notification</code>・<code>PreToolUse</code>・<code>PostToolUse</code>・<code>Stop</code>・<code>SessionEnd</code>）に helper を登録</td></tr>
+<tr>
+<td><code>~/.codex/hooks.json</code></td> <td>Codex の 4 イベント。<code>~/.codex/config.toml</code> の信頼の印（trusted_hash）を照合し、未承認なら Codex だけ使わない</td></tr>
+<tr>
+<td><code>~/.grok/config.toml</code></td> <td>Grok の 5 イベントを、印のコメントで囲んだブロックとして末尾に置く</td></tr></tbody></table><p>この導入には、画面から止める手段がありません（<code>~/.mycmux/agent-hooks-state.json</code> が無ければ常に導入）。</p><ol class="steps"><li>ランチャーで起動</li><li>合言葉を発行</li><li>子プロセスだけに渡す</li><li>helper が申告</li><li class="now">関所で照合</li></ol>
+<p>エージェントの起動ごとに、ランチャーのシェル関数（<code>claude</code>、<code>codex</code>、<code>grok</code> などをかぶせたもの）が socket の <code>launch.issue_hook_cap</code> を呼びます。使い捨ての合言葉を受け取り、その 1 回の起動にだけ環境変数 <code>MYCMUX_HOOK_CAP</code> で渡します（<code>src-tauri/src/launcher.sh:88-128</code>）。helper は、合言葉が無ければ何もせずに終わります。</p><div class="callout warn"><p>合言葉を配るのはランチャーのシェル関数だけで、Rust はこの変数を消すだけです。再起動後の復元のように、アプリがランチャーを通さずにエージェントを直接起動する経路があります。この経路では hook が何もせずに終わる、とコードからは読めます（実機では未確認）。ADR 0009 が想定した注入の位置（Rust の起動処理）とも違います。</p></div>
+ <p>hook の導入で見つかった問題は、次の 4 つです。</p>
+<ol>
+<li><strong>Grok の 5 重登録</strong>。<code>~/.grok/config.toml</code> に mycmux の hook が 5 組（25 行）入っています。Grok が設定を書き直すと印のコメントが消えます。アプリは印でしか自分の分を見分けないため、起動のたびに 1 組ずつ増えます</li><li><strong>ハーネスの正本を書く</strong>。作者のホームの CLAUDE.md は、settings.json の hooks を「慎重に扱う」対象にしています。一方でアプリは、差分があれば毎回書き換えます（同時の編集は照合して拒否する作り）</li><li><strong>helper の改行</strong>。リポジトリは LF、書き出された helper は CRLF です。別の checkout からビルドした exe を交互に起動すると、毎回書き直されます</li><li><strong>テスト機</strong>。テストプロファイルでは導入しませんが、live の設定が指す helper は <code>MYCMUX_RUNTIME_DIR</code> を読みます。そのため、テスト機の中のエージェントの申告は、テスト機の socket に届きます</li></ol>24:["$","section","hook",{"id":"hook","children":[["$","h2",null,{"children":"橋 2: hook と使い捨ての合言葉"}],[["$","div","0",{"dangerouslySetInnerHTML":{"__html":"$2f"}}]]]}]
+30:T8b2,<p>アプリは PTY（ペインの中の疑似端末）に、自分のペインの ID や成果物の置き場などを環境変数で渡します。同時に、一度きりの指示（resume、引き継ぎ、起動対象）が別のペインや次の起動へ漏れないように、4 か所で消しています。これは 5 月の版で起きた事故の再発防止です。<span class="keys"><kbd>Ctrl</kbd><span class="key-join">+</span><kbd>P</kbd></span> の環境変数が他の PTY へ漏れ、新しいペインが勝手に resume されました（<code>CHANGELOG.md:2046-2052</code>）。</p>
+<table>
+<thead>
+<tr><th>場所</th><th>いつ</th><th>何を消すか</th></tr></thead>
+<tbody>
+<tr>
+<td><code>src-tauri/src/lib.rs:305-330</code></td> <td>exe の起動時、自分の環境から</td><td>20 キー</td></tr>
+<tr>
+<td><code>src/lib/spawnLaunchEnv.ts:3-35</code></td><td>新しいペインを作るとき、親ペインの環境から</td><td>20 キー</td></tr>
+<tr>
+<td><code>src/components/layout/SocketListener.tsx:1078-1101</code></td> <td>data.json に保存する前</td><td>18 キー</td></tr>
+<tr>
+<td><code>src-tauri/src/commands/terminal.rs:680-755</code>（<code>sanitize_launch_env</code>）</td><td>PTY の起動直前</td><td>17 キー。resume は ID と種類が揃うとき、引き継ぎは種類と元のペインが揃うときだけ残す</td></tr></tbody></table><p>消したあと、アプリが正しい値を入れ直します（<code>MYCMUX_PANE_SESSION_ID</code>、<code>MYCMUX_RUNTIME_DIR</code>、<code>MYCMUX_TAB_ID</code>、成果物の出力先など）。4 か所は同じ文字列の並びを 4 回書き、契約テスト <code>tests/test_ephemeral_env_keys_contract.py</code> で揃えています。リポジトリの CLAUDE.md は「3 層」と書いていますが、いまは 4 か所です。</p><p>ハーネスも、この環境変数を読みます。<code>ask-inject.py</code> と子の質問封じの hook（<code>dispatch-child-guard.py</code>）は、<code>MYCMUX_PANE_SESSION_ID</code> と委譲の台帳で「自分は子か」を決めます。アプリがこの変数の付け方を変えると、ハーネスの判断が黙って変わります。</p>25:["$","section","env",{"id":"env","children":[["$","h2",null,{"children":"橋 3: PTY に渡す環境変数"}],[["$","div","0",{"dangerouslySetInnerHTML":{"__html":"$30"}}]]]}]
+26:["$","section","skillpack",{"id":"skillpack","children":[["$","h2",null,{"children":"橋 4: 同梱スキルパック"}],[["$","div","0",{"dangerouslySetInnerHTML":{"__html":"<p>アプリは 3 つの skill と CLI を、exe に埋め込んでいます。skill は、session-dispatch、mycmux-bridge、oracmux です。ほかの PC の <code>~/.claude/skills/</code> と <code>~/.mycmux/bin/</code> に入れられるようにするためです（「設定 → AI → Claude Code スキル」）。ハーネスのコードを、アプリのリリースが配っている形です。</p>\n<ol><li>保守者が <code>python scripts/sync_claude_skills.py --from-live --write-manifest</code> で、live の skill を持ち運べる形（個人のパスを置き換えたもの）に変換し、リポジトリに入れる</li><li>ビルドで exe に埋め込む（<code>src-tauri/build.rs:40-80</code>）</li><li>利用者が設定画面から導入する</li></ol><p>調査時点で、パックと live は一致していました（<code>--check</code> は exit 0）。ただし調査した PC は保守者の機で、live が原本なので導入の印がありません。設定画面は 3 つとも「ローカルで改変済み」と表示します。</p><p>ここで「退避して置き換える」を押すと、原本が持ち運び版に置き換わります（押してはいけない、コードからの推論）。<code>~/.mycmux/bin/mycmux_agent_cli.py</code> は 9 月中旬の版のままで、誰も参照していません。</p>"}}]]]}]
+31:Tb62,<p>Claude の hook は、10 イベントに 22 個が登録されています。表の中の印は次のとおりです。</p>
+<ul><li>「（mycmux）」は、アプリが入れた mycmux の hook です</li><li>「（mycmux 前提）」は、ハーネスが mycmux を前提に動くものです</li><li>「（二重記録）」は、アプリと同じ出来事を別に記録しているものです</li></ul>
+<table>
+<thead>
+<tr><th>イベント</th><th>呼ぶもの</th><th>目的</th></tr></thead>
+<tbody>
+<tr>
+<td>UserPromptSubmit</td> <td><code>hooks_dispatch.py</code> から <code>prompt-secret-guard</code>、<code>rule-drift-guard</code>、<code>session-inject</code>（mycmux 前提）、<code>ask-inject</code>（mycmux 前提）、ターンの記録（二重記録）</td><td>秘密の遮断、文脈の注入、判断カードの注入</td></tr>
+<tr>
+<td>UserPromptSubmit</td> <td><code>feedback-injector</code>、<code>skill-hint-injector</code>、<code>turn_active</code>（mycmux）</td><td>feedback と skill の候補、ターン開始の申告</td></tr>
+<tr>
+<td>PreToolUse</td> <td><code>risk-guard</code>、<code>agent-model-guard</code>、<code>comms-search-guard</code>、<code>dispatch-child-guard</code>（mycmux 前提）、<code>pre_tool_use</code>（mycmux）</td><td>危険な操作の拒否、子の質問封じ、ツール使用の申告</td></tr>
+<tr>
+<td>PostToolUse</td> <td><code>checkpoint</code>、<code>slack-log</code>、<code>skill_usage</code>、<code>turn_active</code>（mycmux、AskUserQuestion の後）</td><td>途中経過の保存、使用記録</td></tr>
+<tr>
+<td>Notification、PermissionRequest</td><td>通知の記録と <code>notify.ps1</code>（二重記録）、<code>attention_required</code>（mycmux）</td><td>通知</td></tr>
+<tr>
+<td>SessionStart</td> <td><code>resume-inject</code>（mycmux 前提）、<code>compact-reinject</code>、掃除とトークン更新</td><td>前回の文脈の注入</td></tr>
+<tr>
+<td>Stop</td> <td><code>session-summarize</code>、<code>daily-log</code>、ターンの記録（二重記録）、<code>turn_ended</code>（mycmux）</td><td>要約、日報</td></tr>
+<tr>
+<td>SessionEnd</td> <td><code>session_terminated</code>（mycmux）</td><td>終了の申告</td></tr></tbody></table><p>Codex の hook は、SessionStart（通知）と Stop（使用量の収集）が自前です。残り 4 つは mycmux のものです。Grok の hook は mycmux のものだけです。</p><div class="callout warn"><p>Codex の Stop が切り離して起動する <code>~/.claude/scripts/ai-usage-collector.py</code> は、実在しません（<code>~\.codex\hooks\scripts\hooks_dispatch.py:12</code> と <code>:88</code>、調査当日に作業の会話で確認）。Codex のターンが終わるたびに、使用量の収集が黙って失敗しているはずです（失敗の記録は確かめていない）。</p></div>27:["$","section","harness-hooks",{"id":"harness-hooks","children":[["$","h2",null,{"children":"ハーネス側の hook の一覧"}],[["$","div","0",{"dangerouslySetInnerHTML":{"__html":"$31"}}]]]}]
+28:["$","section","bridge",{"id":"bridge","children":[["$","h2",null,{"children":"bridge の安全な送信"}],[["$","div","0",{"dangerouslySetInnerHTML":{"__html":"<p>mycmux-bridge（ハーネスの skill）は、別のペインに取り違えや二重送信なしで入力するための道具です。委譲便の追加指示（<code>dispatch_send.py</code>）も、これを使います。</p>\n<ol><li>宛先を解決し、<code>session.state_view</code> で、生きているか、期待した注意の印かを確かめる</li><li>画面を読んで指紋を取り、状態と画面をもう一度取り直す。変わっていたら何も書かない</li><li>本文を、期待値 4 点（epoch、attention id、セッション改訂番号、入力改訂番号）付きで書く。Rust が事前に照合し、最後に <code>write_to_session_guarded</code> がすべてを照合してから書く</li><li>入力欄に本文が見えるまで待ち、状態と画面を確かめ直してから、Enter を 1 回だけ送る</li><li>入力欄から本文が消え、画面か状態が変われば「届いた（observed_delivered）」とする</li></ol><p>送信の安全は、3 者に分かれて持たれています。CLI（Enter を最大 3 回）、bridge（1 回）、アプリの入力欄（押し直さない）です。bridge は、リポジトリ作業ツリーの CLI をモジュールとして読み込みます。そのため、別のセッションが未コミットで CLI を編集すると、それがすぐハーネスに効きます。</p>"}}]]]}]
+32:T930,<table>
+<thead>
+<tr><th>名前</th><th>持ち主</th><th>状態</th></tr></thead>
+<tbody>
+<tr>
+<td><code>mycmux.port</code>、<code>mycmux.token</code></td><td>アプリ（橋の入口）</td><td>稼働（起動ごとに作り直す）</td></tr>
+<tr>
+<td><code>hooks/v1/mycmux_hook.py</code></td><td>橋</td><td>稼働</td></tr>
+<tr>
+<td><code>bin/launcher.sh</code>、<code>bin/launcher.ps1</code></td><td>アプリ（起動ごとに同梱版で上書き）</td><td>.sh は稼働（diag に 809 行）、.ps1 は痕跡なし（0 行）</td></tr>
+<tr>
+<td><code>bin/mycmux_agent_cli.py</code></td><td>橋（パックの導入物）</td><td>残骸寄り（参照 0 件、9 月中旬の版）</td></tr>
+<tr>
+<td><code>bin/*.bak-*</code> など 16 個（ほかに CLI の <code>.bak</code> 1 個）</td><td>手作業の退避</td><td>残骸</td></tr>
+<tr>
+<td><code>agent-prompts/</code></td><td>橋（CLI の <code>--prompt</code> の保存先）</td><td>稼働、967 件、掃除なし</td></tr>
+<tr>
+<td><code>agent-jobs/</code></td><td>ハーネス（codex-visible.py）</td><td>残骸寄り（完走は 7 月中旬の 1 件）</td></tr>
+<tr>
+<td><code>pane-sessions/</code></td> <td>4 系統の共同書き込み（Rust の起動処理、ランチャー、PTY モニタ、hook）</td><td>稼働、約 2,600 件</td></tr>
+<tr>
+<td><code>sessions/</code>、<code>sessions-trash/</code></td><td>アプリ</td><td>稼働（trash は消す人なし）</td></tr>
+<tr>
+<td><code>handoff/oracmux/</code></td><td>ハーネス（oracmux）</td><td>最終は 9 月中旬</td></tr>
+<tr>
+<td><code>diag.log</code></td><td>アプリ</td><td>稼働（1MiB で回転、約 6 日分）</td></tr>
+<tr>
+<td><code>history.db</code>、<code>ailog.db</code>、<code>workorders.db</code></td><td>アプリ</td><td>稼働（<a href="/dev/subsystems">周辺の仕組み</a>）</td></tr>
+<tr>
+<td><code>launch-dirs.json</code> ほか</td><td>アプリとランチャー</td><td>稼働</td></tr>
+<tr>
+<td><code>remote.port</code>、<code>remote-token</code>、<code>launcher-debug.log</code>、<code>SOURCE.md</code>、<code>ailog-summarizer.json</code></td><td>なし</td><td>残骸（書き手も読み手もいない）</td></tr></tbody></table><p>ホームには、テストプロファイルの置き場 <code>~/.mycmux-&lt;名前&gt;</code> が 126 個あります。</p>29:["$","section","dot-mycmux",{"id":"dot-mycmux","children":[["$","h2",null,{"children":"~/.mycmux の持ち物"}],[["$","div","0",{"dangerouslySetInnerHTML":{"__html":"$32"}}]]]}]
+33:Tb43,<h3>アプリだけが知っていること</h3><p>ハーネスは、socket で聞くしかありません。</p>
+<table>
+<thead>
+<tr><th>事柄</th><th>ハーネスからの見え方</th></tr></thead>
+<tbody>
+<tr><td>ワークスペース・タブ・ペインと PTY の対応、前面の窓</td><td><code>pane.list_all</code></td>
+</tr>
+<tr><td>ペインの状態（生死・動き・注意の印・改訂番号）</td><td><code>session.state_view</code>・<code>status.subscribe</code></td>
+</tr>
+<tr><td>ペインの画面</td><td><code>pane.read</code></td>
+</tr>
+<tr><td>どの起動が現行か・発行した合言葉・hook の受理と拒否の数</td><td>見えない</td></tr>
+<tr><td>稼働中の exe の版と使える命令</td><td>聞く手段が無い</td></tr></tbody></table><h3>ハーネスだけが知っていること</h3>
+<table>
+<thead>
+<tr><th>事柄</th><th>アプリからの見え方</th></tr></thead>
+<tbody>
+<tr><td>委譲便の親子・spec・状態（台帳）</td><td>委譲の見守りが古い規則で読むだけ</td></tr>
+<tr><td>判断カードの待ち行列</td><td>知らない</td></tr>
+<tr><td>見張りを止めたこと</td><td>ランチャーが環境変数を見て起こすのを省くだけ</td></tr>
+<tr><td>委譲の規則・モデルの割り当て</td><td>知らない</td></tr>
+<tr><td>ハーネスの hook がしたこと（拒否・遮断・注入）</td><td>見えない</td></tr></tbody></table><h3>両方が別々に持っていること</h3>
+<table>
+<thead>
+<tr><th>事柄</th><th>アプリ側</th><th>ハーネス側</th></tr></thead>
+<tbody>
+<tr><td>ターンの始まりと終わり</td><td><code>hook.observe</code></td> <td><code>%USERPROFILE%\claude-ops\state\agent-turn-events*.jsonl</code>（読み手が見つからない）</td></tr>
+<tr><td>通知</td><td>Notification hook から注意の印へ</td><td>notify.ps1 と <code>agent-notifications.jsonl</code></td>
+</tr>
+<tr>
+<td>Claude のフォルダの信頼（<code>~/.claude.json</code>）</td><td>起動のたびに書く</td><td><code>dispatch_preflight.py</code> も書く</td></tr>
+<tr>
+<td>resume</td> <td>data.json と CLI の <code>--resume</code></td> <td>resume-inject が SessionStart で別の要約を足す</td></tr>
+<tr>
+<td>CLI の置き場</td><td>同梱版を <code>~/.mycmux/bin</code> へ</td><td>リポジトリ作業ツリーを直書き（8 か所以上）</td></tr>
+<tr><td>エージェントの種類の一覧</td><td>追跡は 4 種、起動は 7 種</td><td>CLI 9、bridge 5、helper 3、ランチャーの case 文</td></tr>
+<tr><td>状態の応答の検査</td><td>Rust の型</td><td>CLI・bridge・pocket で null の扱いが違う</td></tr>
+<tr><td>委譲便の終了状態の集合</td><td>Rust と TS に写し</td><td><code>dispatch_ledger.py</code>。3 者を突き合わせるテストは無い</td></tr></tbody></table>2a:["$","section","asymmetry",{"id":"asymmetry","children":[["$","h2",null,{"children":"知っていることの非対称"}],[["$","div","0",{"dangerouslySetInnerHTML":{"__html":"$33"}}]]]}]
+34:Tb82,<p>このほかに、調査メモの照合の途中で、Codex の Stop hook の不具合（実在しないスクリプトの起動）を 1 件見つけました。上の「ハーネス側の hook の一覧」と、既知の問題の 22 に載せています。どちらに寄せるかの提案は、<a href="/dev/responsibility">責務の分け方</a>にあります。</p>
+<ol>
+<li>hook の合言葉を配るのがランチャーだけで、アプリが直接起動するペインでは hook が効かない（推測）</li><li>Grok の設定に hook が 5 重に入っている</li><li>アプリがハーネスの設定（settings.json、hooks.json、config.toml）と信頼（<code>~/.claude.json</code>）を書き、止める画面が無い</li><li><code>~/.claude.json</code> の信頼を、アプリと <code>dispatch_preflight.py</code> の 2 者が書く</li><li>ハーネスがリポジトリ作業ツリーの CLI を直接使い、exe との版ずれがそのまま出る</li><li>CLI が 2 つある（リポジトリ版と <code>~/.mycmux/bin</code> 版）</li><li><code>~/.claude/scripts/codex-visible.py</code> が合言葉なしで socket を呼ぶ。そのため 8 月上旬の認証導入以降は可視ペインを立てられず、黙って画面なしの <code>codex exec</code> に落ちる。それでも codex-helper と delegation-playbook は、この経路を案内している</li><li>CLI の <code>status</code>（全件）が、いま必ず失敗する</li><li>送信の安全が 3 者に分かれ、Enter の押し直しの回数が違う</li><li><code>--model</code> と <code>--effort</code> が黙って捨てられる</li><li>socket の命令表が、フロントの内部 API を兼ねている</li><li>アプリのランチャーが、エージェントを起動するたびにハーネスの見張りを起こそうとする</li><li>ターンと通知の記録が 2 系統あり、ハーネス側の記録には読み手がいない</li><li>委譲便の終了状態の集合が、Python、Rust、TS に 3 重に定義されている</li><li>ハーネスの hook が、アプリの環境変数の付け方に依存している</li><li>リポジトリのテストが、ハーネスの live の bridge を読み込んで試験している（<code>tests/test_mycmux_bridge.py:13-24</code>）</li><li>文書が古い（<code>docs/agent-integration.md</code>、socket の説明文書に 13 系統の記載が無い、CLAUDE.md の「3 層」）</li><li>保守者の機で設定画面の「置き換える」を押すと、原本が持ち運び版に替わる</li><li>呼び手のない命令がある（旧名 8、<code>workspace.select</code> は何もしない、<code>pane.launch_declared</code> は設定でオフ）</li><li>実際に使われているのは <code>launcher.sh</code> なのに、agy の配色対策（<code>NO_COLOR</code>）は <code>launcher.ps1</code> にしか入っていない</li></ol>2b:["$","section","mismatches",{"id":"mismatches","children":[["$","h2",null,{"children":"境界の食い違い（20 件）"}],[["$","div","0",{"dangerouslySetInnerHTML":{"__html":"$34"}}]]]}]
+2c:["$","section","unverified",{"id":"unverified","children":[["$","h2",null,{"children":"未確認事項"}],[["$","div","0",{"dangerouslySetInnerHTML":{"__html":"<ol><li>再起動後に復元した Claude と Codex のペインで、hook が効かないか。実機で 1 ターン回し、diag に起動の行が出ないことと、状態の出どころに hook が付かないことを見る</li><li>Grok の重複した hook を、アプリが 1 回に畳むか</li><li>pocket が、全件の状態取得を呼ぶ経路を持つか</li><li>guard.log の「disabled」行を誰が書いているか。ランチャーは環境変数で省くので、送信と preflight からの呼び出しと推定している（<a href=\"/dev/dispatch\">ディスパッチ</a>）</li><li>切り離した子窓のワークスペースが、<code>pane.list_all</code> に出るか</li><li><code>launch.issue_hook_cap</code> の実際の発行回数（数える手段が無い）</li><li>宣言ペインの起動設定の実値</li><li>Codex の信頼の判定が、アプリの判定とずっと一致しているか（調査前の 1 週間は矛盾なし）</li><li>調査当日の朝、アプリの起動の約 20 分後に <code>~/.claude/settings.json</code> を書いたのは誰か</li><li><code>integrations/chatgpt-app/plugins/mycmux-control</code> の稼働状況</li><li>CLI に無い命令と旧名が、手作業のスクリプトから使われているか（socket は成功した要求を記録しない）</li></ol>"}}]]]}]
