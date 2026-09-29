@@ -1,1 +1,0 @@
-import{r as e}from"./framework-D_rUT4EX.js";var t=e();function n(){return(0,t.jsx)(`p`,{children:`v0.80.0`})}export{n as default};
