@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>mycmuxプライバシーポリシー</title><meta name="description" content="mycmuxのiPhoneアプリにおける通信先、会話や画像、端末内保存、任意の計測と問い合わせの扱い。">
+<style>:root{color-scheme:light dark;--bg:#fff;--text:#17212b;--muted:#536174;--line:#d9e1ea;--link:#135cb4}@media(prefers-color-scheme:dark){:root{--bg:#151a21;--text:#e7edf5;--muted:#b3c0d2;--line:#465362;--link:#8dc0ff}}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:17px/1.8 -apple-system,BlinkMacSystemFont,"Yu Gothic UI",sans-serif}main{max-width:752px;margin:auto;padding:40px 16px 64px}h1{font-size:32px;line-height:1.4}h2{font-size:23px;line-height:1.5;margin-top:40px}p,li{overflow-wrap:anywhere}a{color:var(--link);text-underline-offset:3px}a:focus-visible{outline:3px solid var(--link);outline-offset:4px}.muted,footer{color:var(--muted)}footer{border-top:1px solid var(--line);margin-top:40px;padding-top:20px;font-size:15px}nav{padding:16px 0;border-block:1px solid var(--line)}nav a{display:inline-block;margin:4px 16px 4px 0}code{font-size:.95em}</style></head>
+<body><main id="main"><p><a href="support.html">iPhoneアプリのサポートへ</a></p><h1>プライバシーポリシー</h1>
+<p>このポリシーは、App Storeへの一般公開に向けたmycmuxのiPhoneアプリ（ホーム画面名「ポケット」）に適用します。既存の限定配布版やPC側サービスのすべてに、一律に適用するものではありません。</p>
+<p class="muted">提供者：Miyazaki Efu／制定日：2026年11月2日</p>
+<nav aria-label="このページの内容"><a href="#connections">通信先</a><a href="#content">会話と画像</a><a href="#storage">端末内保存</a><a href="#metrics">計測</a><a href="#review">審査デモ</a><a href="#contact">問い合わせ</a></nav>
+<h2 id="connections">通信先と管理者</h2>
+<p>本アプリは、利用者が登録したPC側サービスや、明示的に登録した会話補助サービスへ通信します。一般公開向けの版では、開発者の私用サービスを既定の接続先として登録していません。</p>
+<p>接続先の管理者とアプリ提供者は、同一とは限りません。会話や資料を処理するサーバーの保存期間、アクセス権、外部サービスとの連携は、接続先の管理者が管理します。登録する前に、利用を認められた環境かを確認してください。</p>
+<h2 id="content">会話・画像・文書の送信</h2>
+<p>利用者が送信操作を行うと、メッセージ本文と選択した画像等が、その画面の接続先へ送られます。文書から質問する場合は、入力文に文書名、パス、URLを添えて送ります。接続先がAI等の外部サービスを利用する場合、その後の処理には接続先と外部サービスの設定・利用条件が適用されます。</p>
+<p>QRコードの読取りにカメラの許可を求めます。画像の添付と共有は利用者の操作で行います。共有先へ渡した後の保存・処理は、共有先の利用条件に従います。</p>
+<h2 id="identifier">接続先へ渡す識別子</h2>
+<p>本アプリは、アプリ内でUUIDを生成して端末内に保存し、対応するネットワーク要求の<code>X-Pocket-Device</code>ヘッダーに付けます。広告IDではありません。接続先は要求とともにこの識別子を受け取ります。</p>
+<h2 id="storage">端末内の保存</h2>
+<p>接続先、表示設定、最近開いた会話、会話履歴のキャッシュ、下書き、送信結果を確認できない本文や画像の控え等を、iPhoneのアプリ用領域に保存します。再表示や送信内容の復元のために使用します。</p>
+<p>会話履歴のキャッシュは、会話ごとに最新60件のイベント（メッセージや実行記録）までを保存し、最後の保存から14日を超えたファイルを整理します。未送信内容の控え等には、同じ保存期限を適用していません。アプリの削除やiOSのバックアップ・復元に伴う扱いは、iOS側の設定にも依存します。iPhone側で接続先登録を解除しても、サーバー上の会話・添付は削除されません。</p>
+<h2 id="metrics">任意の計測送信と診断</h2>
+<p>一般公開向けの版は、新規インストール時の「計測を送る」をオフにしています。オンにすると、処理時間、時刻、イベント種別、会話IDの一部、アプリの版、端末モデル、回線種別、通信結果、OS版やクラッシュ等の障害情報を、登録したPC側サービスへ送信します。計測の対象項目にはメッセージ本文を含めていません。</p>
+<p>この設定は計測の送信を切り替えるもので、端末内の診断記録をすべて停止するものではありません。通常の計測記録は容量を制限したファイルに保存します。以前の版で保存した送信設定は引き継ぎます。</p>
+<p>本アプリには広告を配信する仕組みと、他社のアプリやサイトを横断して追跡する広告用SDKを組み込んでいません。</p>
+<h2 id="review">審査・確認用の公開デモ</h2>
+<p>提供者の審査デモへ接続した場合は、実業務とは分離した架空データを表示します。デモ送信で受け取る本文は、Cookieで区別した一時セッション内のメモリに保持し、PC操作や外部AIへの転送、ファイル保存は行いません。</p>
+<p>デモは1セッションにつき各会話の最新40メッセージまで、同時に32セッションまでを保持し、最後の利用から30分でセッションを失効させます。上限を超えた場合やサービス再起動時は、30分以内でも消える場合があります。期限切れの情報は次の要求時に整理します。Cookieはデモのセッションを区別するためだけに使用します。</p>
+<p>公開デモは機能確認のためのもので、実際の業務情報・個人情報・秘密情報を送らないでください。接続にはTailscale Funnelを使用し、通信経路では同サービス側の処理も行われます。<a href="https://tailscale.com/privacy-policy/">Tailscaleのプライバシーポリシー</a>も確認してください。</p>
+<h2 id="contact">問い合わせ</h2>
+<p>公開してよい内容は<a href="https://github.com/miyafcos/pocket-ios-oss/issues">公開の問い合わせページ</a>へ、秘密情報やセキュリティ上の問題を含む内容は<a href="https://github.com/miyafcos/pocket-ios-oss/security/advisories/new">非公開報告</a>へ連絡してください。GitHubアカウントが必要です。弊社は、報告の確認と対応に必要な範囲で受領内容を利用します。公開ページへ秘密情報を投稿しないでください。</p>
+<h2 id="changes">ポリシーの変更</h2>
+<p>機能やデータの扱いを変更するときは、このページを更新します。対象となる版や変更日が分かるよう記載します。</p>
+<footer>提供者：Miyazaki Efu<br>最終更新：2026年11月2日<br><a href="support.html">サポート</a>／<a href="/pocket.html">ポケットの紹介</a></footer></main></body></html>
